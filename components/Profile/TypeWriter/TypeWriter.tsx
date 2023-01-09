@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import TypeTitle from "./TypeTitle";
+import TypeTitle from "./TypeTitle.jsx";
 
 export default function TypeWriter() {
   return (
