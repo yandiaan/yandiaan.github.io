@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body * {
+  overflow-y: clip;
+}
+
+#component {
+  width: 100vw;
+  height: 100vh;
+}
+
+#container {
+  display: flex;
+  width: 500vw;
+}
+
+.nav-glass {
+  background: rgba(17, 17, 17, 0.45);
+  backdrop-filter: blur(4px);
+  padding: 25px 250px !important;
+  /* border-radius: 10px; */
+}
+
+.bg-glass {
+  background: rgba(48, 0, 255, 0.05);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.wrapper {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+}
+.item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  border-bottom: 1px dashed antiquewhite;
+}
+.item-header-heading {
+  width: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.item-header-heading2 {
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.item-image {
+  height: 400px;
+  background-color: gray;
+  margin: 10px 0px;
+}
+.item-footer {
+  display: flex;
+  align-items: center;
+  border-top: 1px dashed antiquewhite;
+  padding-top: 5px;
+}
+
+.mac-glass-full {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.mac-glass {
+  background: rgba(255, 255, 255, 0.49);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
