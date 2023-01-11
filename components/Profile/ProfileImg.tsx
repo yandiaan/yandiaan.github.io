@@ -14,7 +14,7 @@ export default function ProfileImg() {
   }, [active]);
 
   return (
-    <div className="relative -mt-24 overflow-visible scale-50 justify-self-start xl:scale-90">
+    <div className="relative -mt-24 overflow-visible scale-50 justify-self-start xl:scale-75">
       <img
         className={`absolute z-10 bottom-0 left-0 transition-all ease-in-out duration-500 ${
           active ? "left-1/4 bottom-1/3 z-40 animate-wiggle" : ""
