@@ -12,7 +12,7 @@ export default function NavItems({ href, title }: NavItemsProps) {
       smooth
       spy
       to={href}
-      className="text-white text-xl pb-1 cursor-pointer"
+      className="text-white xl:text-xl text-sm pb-1 cursor-pointer"
       activeClass="border-b-4 font-bold"
     >
       {title}

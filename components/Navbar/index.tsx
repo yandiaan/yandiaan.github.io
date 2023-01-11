@@ -21,7 +21,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className="flex justify-between px-32 py-10 fixed z-50 top-0 w-full ease-in duration-300"
+      className="flex justify-between px-32 xl:py-10 py-2 fixed z-50 top-0 w-full ease-in duration-300"
       ref={navbarRef}
     >
       <NavItems href="profile" title="PROFILE" />

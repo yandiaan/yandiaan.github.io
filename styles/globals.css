@@ -36,7 +36,6 @@ body * {
 .nav-glass {
   background: rgba(17, 17, 17, 0.45);
   backdrop-filter: blur(4px);
-  padding: 25px 250px !important;
   /* border-radius: 10px; */
 }
 
