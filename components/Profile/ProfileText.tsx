@@ -8,9 +8,8 @@ export default function ProfileText() {
         My Name is Dian Setiawan
       </h6>
       <span className="font-thin w-80">
-        Lorem ipsum dolor sit amet consectetur. Eget lectus vivamus velit morbi.
-        Facilisi cursus elit nulla mattis purus. Malesuada ac erat maecenas quis
-        nunc consequat fusce enim. Tincidunt rhoncus dui vitae nunc.
+        seorang mahasiswa yang cinta dengan teknologi informasi dan senang
+        mempelajari hal hal baru mengenai dunia teknologi dan programming.
       </span>
     </div>
   );
