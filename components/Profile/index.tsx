@@ -6,7 +6,7 @@ export default function Profile() {
   return (
     <div
       id="profile"
-      className="flex relative text-white justify-center gap-24 items-center w-screen h-screen"
+      className="flex relative text-white justify-center xl:gap-24 items-center w-screen h-screen"
     >
       <ProfileText />
       <ProfileImg />

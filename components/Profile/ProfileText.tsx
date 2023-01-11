@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ProfileText() {
   return (
-    <div className="flex flex-col gap-3">
+    <div className="flex flex-col gap-3 scale-90 xl:scale-100">
       <h1 className="text-8xl font-bold overflow-hidden">Hello.</h1>
       <h6 className="text-md font-bold tracking-widest">
         My Name is Dian Setiawan
