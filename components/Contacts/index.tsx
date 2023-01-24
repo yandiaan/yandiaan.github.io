@@ -7,31 +7,31 @@ export default function Contacts() {
   return (
     <div
       id="contacts"
-      className="bg-[url('/img/macos.jpg')] bg-cover w-screen h-screen flex justify-center items-center "
+      className="bg-[url('/img/macos.jpg')] bg-cover w-screen h-screen flex justify-center items-center"
     >
-      <div className="h-3/4 w-3/4 mac-glass-full flex">
-        <div className="mac-glass w-1/4 relative flex flex-col items-center gap-5 py-12 px-10">
+      <div className="h-full w-full mac-glass-full flex">
+        <div className="mac-glass basis-1/4 relative flex flex-col items-center gap-5 py-12 px-10">
           <div className="flex flex-col gap-4"></div>
           <div className="absolute top-5 left-5 flex gap-2">
             <div className="dot bg-[#E9524A] h-[20px] w-[20px] rounded-full "></div>
             <div className="dot bg-[#F1AE1B] h-[20px] w-[20px] rounded-full "></div>
             <div className="dot bg-[#59C837] h-[20px] w-[20px] rounded-full "></div>
           </div>
-          <div className="flex justify-center gap-4  items-center">
+          <div className="xl:flex text-center xl:text-left justify-center gap-4 items-center">
             <Image
               src={"/img/lastprofile2.png"}
               width={100}
               height={100}
-              className="basis-1/4"
+              className="basis-1/4 scale-75 xl:scale-100"
               alt=""
             />
             <div className="basis-3/4">
-              <h1 className="font-bold text-xl">Dian Setiawan</h1>
-              <span>Software Engineer</span>
+              <h1 className="font-bold text-sm xl:text-xl">Dian Setiawan</h1>
+              <span className="text-sm xl:text-xl">Software Engineer</span>
             </div>
           </div>
-          <div className="mt-12">
-            <h1 className="font-bold text-2xl tracking-wide">
+          <div className="mt-12 text-sm">
+            <h1 className="font-bold xl:text-2xl tracking-wide">
               Contact Information
             </h1>
             <p className="font-thin">

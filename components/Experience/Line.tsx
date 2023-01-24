@@ -18,8 +18,8 @@ export default function Line({ position }: LineProps) {
         } justify-center items-center h-full gap-16`}
       >
         <div
-          className={`text-sm basis-1/2 flex items-${
-            position % 2 === 0 ? "start" : "end"
+          className={`text-sm basis-1/2 flex ${
+            position % 2 === 0 ? "items-start" : "items-end"
           }`}
         >
           <div className="flex flex-col bg-glass p-8">
@@ -31,8 +31,8 @@ export default function Line({ position }: LineProps) {
         <div className="h-2 w-1/2 bg-white overflow-y-hidden top-1/2 absolute"></div>
         <Circle />
         <div
-          className={`flex flex-col items-center text-center justify-${
-            position % 2 === 0 ? "end" : "start"
+          className={`flex flex-col items-center text-center ${
+            position % 2 === 0 ? "justify-end" : "justify-start"
           } basis-1/2  gap-8 overflow-visible mx-24`}
         >
           <h1 className="capitalize overflow-visible font-extrabold w-[400px] text-2xl xl:text-4xl">
