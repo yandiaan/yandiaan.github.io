@@ -1,7 +1,7 @@
 export const data = [
   {
     title: "Personal Website",
-    href: "https://yandiaan.github.io",
+    href: "https://yandian-site.vercel.app",
     src: "portfolio.png",
     stacks: ["Typescript", "NextJS", "ReactJS", "Tailwind CSS"],
   },
